@@ -1,8 +1,10 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
+const npc = require("./NPC.json");
  
 let prefix = "-";
+
 client.on("message", (message) => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 	
@@ -15,16 +17,14 @@ client.on("message", (message) => {
 	var validCommand = false
 	
 	switch(command[0]) {
-		case '-c':
-			switch(command[1]) {
-				case 'kagehisa':
-				validCommand = true;
-					embed.setImage("https://d28lcup14p4e72.cloudfront.net/234130/4204379/KakitaKagehisa.jpg")
-					.setAuthor("Kakita Kagehisa", "", "https://forum.lady8jane.com/post/crane-clan-kakita-kagehisa-chief-emerald-magistrate-9943618?pid=1306399709")
-					.setDescription("Kakita Kagehisa is the Chief Emerald Magistrate of Ryoko Owari Tochi since the assassination of Kakita Naritoki about a month ago. Before that he served as assistant to first Matsu Shigeko and then Kakita Naritoki for together almost five years. \n\nPrior to his time in Ryoko Owari he was a Crane Clan Magistrate in Shiro sano Kakita. He started his service there as Yoriki in his early twenties and worked his way up to Chief Crane Clan Magistrate of the Kakita Academy over the course of about 15 years.")
-					break;
-				default:
-					break;
+		case '-npc':
+			if(command[1] in npc){
+				validCommand = true
+				embed.setImage(npc[command[1]].imageURL)
+				.setAuthor(npc[command[1]].title, "", npc[command[1]].infoURL)
+				.setDescription(npc[command[1]].description)
+			} else {
+				
 			}
 			break;
 		default:
@@ -33,6 +33,8 @@ client.on("message", (message) => {
 	
 	if (validCommand) {
 		message.channel.send({embed});
+	} else {
+		message.channel.send("Something went wrong, my dude.");
 	}
 });
  
