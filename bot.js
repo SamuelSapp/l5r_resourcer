@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const config = require("./config.json");
 const npc = require("./NPC.json");
 const kata = require("./kata.json");
+const info_lists = require("./info_lists.json");
  
 let prefix = "-";
 
@@ -26,6 +27,10 @@ client.on("message", (message) => {
 		embed.setImage(kata[command].imageURL)
 			.setAuthor(kata[command].title)
 			.setFooter(kata[command].footer);
+	} else if (command in info_lists){
+		validCommand = true;
+		embed.setDescription(info_lists[command].description)
+			.setAuthor(info_lists[command].title)
 	} else if (command === "help") {
 		validCommand = true;
 		embed.setImage("https://i.imgur.com/zUeBxmP.gif")

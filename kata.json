@@ -44,14 +44,14 @@
 		"title":"Iron in the Mountains Style",
 		"footer":"dunno"
 	},
-	"lord_hida’s_grip":{
+	"lord_hidas_grip":{
 		"imageURL":"https://i.imgur.com/eEjzKay.png",
-		"title":"Lord Hida’s Grip",
+		"title":"Lord Hida's Grip",
 		"footer":"dunno"
 	},
-	"lord_shiba’s_valor":{
+	"lord_shibas_valor":{
 		"imageURL":"https://i.imgur.com/eEjzKay.png",
-		"title":"Lord Shiba’s Valor",
+		"title":"Lord Shiba's Valor",
 		"footer":"dunno"
 	},
 	"soaring_slice":{
@@ -94,9 +94,9 @@
 		"title":"Tactical Assessment",
 		"footer":"dunno"
 	},
-	"warrior’s_resolve":{
+	"warriors_resolve":{
 		"imageURL":"https://i.imgur.com/eEjzKay.png",
-		"title":"Warrior’s Resolve",
+		"title":"Warrior's Resolve",
 		"footer":"dunno"
 	},
 	"coiling_serpent_style":{
