@@ -1,7 +1,162 @@
 {
+	"battle_in_the_mind":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"breath_of_wind_style":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"crashing_wave_style":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"crescent_moon_style":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"crimson_leaves_strike":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"disappearing_world_style":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"flowing_water_strike":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"heartpiercing_strike":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"iron_in_the_mountains_style":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"lord_hida’s_grip":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"lord_shiba’s_valor":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"soaring_slice":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"soul_sunder":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"striking_as_air":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"striking_as_earth":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"striking_as_fire":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"striking_as_void":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"striking_as_water":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"tactical_assessment":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"warrior’s_resolve":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"coiling_serpent_style":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"iaijutsu_cut_crossing_blade":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"iaijutsu_cut_rising_blade":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"iron_forest_style":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"open-hand_style":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"rushing_avalanche_style":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"spinning_blades_style":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"thunderclap_strike":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
 	"hawks_precision":{
 		"imageURL":"https://i.imgur.com/eEjzKay.png",
 		"title":"Hawk's Precision",
+		"footer":"dunno"
+	},
+	"veiled_menace_style":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Veiled Menace Style",
+		"footer":"dunno"
+	},
+	"pin_the_fan":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Pin the Fan",
+		"footer":"dunno"
+	},
+	"pelting_hail_style":{
+		"imageURL":"https://i.imgur.com/eEjzKay.png",
+		"title":"Pelting Hail Style",
 		"footer":"dunno"
 	}
 }
