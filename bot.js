@@ -3,6 +3,12 @@ const client = new Discord.Client();
 const config = require("./config.json");
 const npc = require("./NPC.json");
 const kata = require("./kata.json");
+const invocations = require("./invocations.json");
+const kiho = require("./kiho.json");
+const maho = require("./maho.json");
+const ninjutsu = require("./ninjutsu.json");
+const rituals = require("./rituals.json");
+const shuji = require("./shuji.json");
 const info_lists = require("./info_lists.json");
  
 let prefix = "-";
@@ -27,7 +33,37 @@ client.on("message", (message) => {
 		embed.setImage(kata[command].imageURL)
 			.setAuthor(kata[command].title)
 			.setFooter(kata[command].footer);
-	} else if (command in info_lists){
+	} else if (command in invocations){
+		validCommand = true;
+		embed.setImage(invocations[command].imageURL)
+			.setAuthor(invocations[command].title)
+			.setFooter(invocations[command].footer);
+	}else if (command in kiho){
+		validCommand = true;
+		embed.setImage(kiho[command].imageURL)
+			.setAuthor(kiho[command].title)
+			.setFooter(kiho[command].footer);
+	}else if (command in maho){
+		validCommand = true;
+		embed.setImage(maho[command].imageURL)
+			.setAuthor(maho[command].title)
+			.setFooter(maho[command].footer);
+	}else if (command in ninjutsu){
+		validCommand = true;
+		embed.setImage(ninjutsu[command].imageURL)
+			.setAuthor(ninjutsu[command].title)
+			.setFooter(ninjutsu[command].footer);
+	}else if (command in rituals){
+		validCommand = true;
+		embed.setImage(rituals[command].imageURL)
+			.setAuthor(rituals[command].title)
+			.setFooter(rituals[command].footer);
+	}else if (command in shuji){
+		validCommand = true;
+		embed.setImage(shuji[command].imageURL)
+			.setAuthor(shuji[command].title)
+			.setFooter(shuji[command].footer);
+	}else if (command in info_lists){
 		validCommand = true;
 		embed.setDescription(info_lists[command].description)
 			.setAuthor(info_lists[command].title)
