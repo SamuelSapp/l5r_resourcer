@@ -2,33 +2,35 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
 const npc = require("./NPC.json");
+const kata = require("./kata.json");
  
 let prefix = "-";
 
 client.on("message", (message) => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 	
-	var new_msg = message.content.toLowerCase();
-	
-	var command = new_msg.split(" ")
+	var command = message.content.toLowerCase();
+	command = command.replace("-", "");
 	
 	const embed = new Discord.RichEmbed();
 	
 	var validCommand = false
 	
-	switch(command[0]) {
-		case '-npc':
-			if(command[1] in npc){
-				validCommand = true
-				embed.setImage(npc[command[1]].imageURL)
-				.setAuthor(npc[command[1]].title, "", npc[command[1]].infoURL)
-				.setDescription(npc[command[1]].description)
-			} else {
-				
-			}
-			break;
-		default:
-			break;
+	if (command in npc){
+		validCommand = true;
+		embed.setImage(npc[command].imageURL)
+			.setAuthor(npc[command].title, "", npc[command].infoURL)
+			.setDescription(npc[command].description);
+	} else if (command in kata){
+		validCommand = true;
+		embed.setImage(kata[command].imageURL)
+			.setAuthor(kata[command].title)
+			.setFooter(kata[command].footer);
+	} else if (command === "help") {
+		validCommand = true;
+		embed.setImage("https://i.imgur.com/zUeBxmP.gif")
+			.setAuthor("No")
+			.setDescription("go kill yourself");
 	}
 	
 	if (validCommand) {
