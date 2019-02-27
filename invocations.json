@@ -1,64 +1,312 @@
 {
-	"blessed_wind":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"by_the_light_of_the_lord_moon":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"call_upon_the_wind":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"cloak_of_night":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"false_realm_of_the_fox_spirits":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"grasp_of_the_air_dragon":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"mask_of_wind":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"natures_touch":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"rise,_air":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"secrets_on_the_wind":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"summon_fog":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"tempest_of_air":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"token_of_memory":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"vapor_of_nightmares":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"wrath_of_kaze-no-kami":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"yari_of_air":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"armor_of_earth":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"bind_the_shadow":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"caress_of_earth":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"courage_of_seven_thunders":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"earthquake":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"earth_becomes_sky":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"embrace_of_kenro-ji-jin":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"grasp_of_earth":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"jade_strike":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"jurōjins_balm":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"power_of_the_earth_dragon":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"rise,_earth":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"symbol_of_earth":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"tetsubō_of_earth":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"tomb_of_jade":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"wall_of_earth":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"armor_of_radiance":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"biting_steel":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"breath_of_the_fire_dragon":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"extinguish":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"fukurokujins_wit":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"fury_of_osano-wo":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"katana_of_fire":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"matsus_battlecry":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"ravenous_swarms":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"rise,_flame":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"the_cleansing_fire":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"the_fires_from_within":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"the_souls_blade":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"wall_of_fire":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"wings_of_the_phoenix":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"bō_of_water":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"dance_of_seasons":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"dominion_of_suijin":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"ever-changing_waves":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"hands_of_the_tides":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"heart_of_the_water_dragon":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"inaris_blessing":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"path_to_inner_peace":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"reflections_of_pan_ku":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"rise,_water":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"stride_the_waves":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"strike_the_tsunami":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"suijins_embrace":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"sympathetic_energies":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"the_rushing_wave":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	}
+	"blessed_wind":{
+		"imageURL":"",
+		"title":"Blessed Wind",
+		"footer":""
+	},
+	"by_the_light_of_the_lord_moon":{
+		"imageURL":"",
+		"title":"By the Light of the Lord Moon",
+		"footer":""
+	},
+	"call_upon_the_wind":{
+		"imageURL":"",
+		"title":"Call Upon the Wind",
+		"footer":""
+	},
+	"cloak_of_night":{
+		"imageURL":"",
+		"title":"Cloak of Night",
+		"footer":""
+	},
+	"false_realm_of_the_fox_spirits":{
+		"imageURL":"",
+		"title":"False Realm of the Fox Spirits",
+		"footer":""
+	},
+	"grasp_of_the_air_dragon":{
+		"imageURL":"",
+		"title":"Grasp of the Air Dragon",
+		"footer":""
+	},
+	"mask_of_wind":{
+		"imageURL":"",
+		"title":"Mask of Wind",
+		"footer":""
+	},
+	"natures_touch":{
+		"imageURL":"",
+		"title":"Nature’s Touch",
+		"footer":""
+	},
+	"rise_air":{
+		"imageURL":"",
+		"title":"Rise, Air",
+		"footer":""
+	},
+	"secrets_on_the_wind":{
+		"imageURL":"",
+		"title":"Secrets on the Wind",
+		"footer":""
+	},
+	"summon_fog":{
+		"imageURL":"",
+		"title":"Summon Fog",
+		"footer":""
+	},
+	"tempest_of_air":{
+		"imageURL":"",
+		"title":"Tempest of Air",
+		"footer":""
+	},
+	"token_of_memory":{
+		"imageURL":"",
+		"title":"Token of Memory",
+		"footer":""
+	},
+	"vapor_of_nightmares":{
+		"imageURL":"",
+		"title":"Vapor of Nightmares",
+		"footer":""
+	},
+	"wrath_of_kaze-no-kami":{
+		"imageURL":"",
+		"title":"Wrath of Kaze-no-Kami",
+		"footer":""
+	},
+	"yari_of_air":{
+		"imageURL":"",
+		"title":"Yari of Air",
+		"footer":""
+	},
+	"armor_of_earth":{
+		"imageURL":"",
+		"title":"Armor of Earth",
+		"footer":""
+	},
+	"bind_the_shadow":{
+		"imageURL":"",
+		"title":"Bind the Shadow",
+		"footer":""
+	},
+	"caress_of_earth":{
+		"imageURL":"",
+		"title":"Caress of Earth",
+		"footer":""
+	},
+	"courage_of_seven_thunders":{
+		"imageURL":"",
+		"title":"Courage of Seven Thunders",
+		"footer":""
+	},
+	"earthquake":{
+		"imageURL":"",
+		"title":"Earthquake",
+		"footer":""
+	},
+	"earth_becomes_sky":{
+		"imageURL":"",
+		"title":"Earth Becomes Sky",
+		"footer":""
+	},
+	"embrace_of_kenro-ji-jin":{
+		"imageURL":"",
+		"title":"Embrace of Kenro-Ji-Jin",
+		"footer":""
+	},
+	"grasp_of_earth":{
+		"imageURL":"",
+		"title":"Grasp of Earth",
+		"footer":""
+	},
+	"jade_strike":{
+		"imageURL":"",
+		"title":"Jade Strike",
+		"footer":""
+	},
+	"jurojins_balm":{
+		"imageURL":"",
+		"title":"Jurōjin’s Balm",
+		"footer":""
+	},
+	"power_of_the_earth_dragon":{
+		"imageURL":"",
+		"title":"Power of the Earth Dragon",
+		"footer":""
+	},
+	"rise_earth":{
+		"imageURL":"",
+		"title":"Rise, Earth",
+		"footer":""
+	},
+	"symbol_of_earth":{
+		"imageURL":"",
+		"title":"Symbol of Earth",
+		"footer":""
+	},
+	"tetsubo_of_earth":{
+		"imageURL":"",
+		"title":"Tetsubō of Earth",
+		"footer":""
+	},
+	"tomb_of_jade":{
+		"imageURL":"",
+		"title":"Tomb of Jade",
+		"footer":""
+	},
+	"wall_of_earth":{
+		"imageURL":"",
+		"title":"Wall of Earth",
+		"footer":""
+	},
+	"armor_of_radiance":{
+		"imageURL":"",
+		"title":"Armor of Radiance",
+		"footer":""
+	},
+	"biting_steel":{
+		"imageURL":"",
+		"title":"Biting Steel",
+		"footer":""
+	},
+	"breath_of_the_fire_dragon":{
+		"imageURL":"",
+		"title":"Breath of the Fire Dragon",
+		"footer":""
+	},
+	"extinguish":{
+		"imageURL":"",
+		"title":"Extinguish",
+		"footer":""
+	},
+	"fukurokujins_wit":{
+		"imageURL":"",
+		"title":"Fukurokujin’s Wit",
+		"footer":""
+	},
+	"fury_of_osano-wo":{
+		"imageURL":"",
+		"title":"Fury of Osano-wo",
+		"footer":""
+	},
+	"katana_of_fire":{
+		"imageURL":"",
+		"title":"Katana of Fire",
+		"footer":""
+	},
+	"matsus_battlecry":{
+		"imageURL":"",
+		"title":"Matsu's Battlecry",
+		"footer":""
+	},
+	"ravenous_swarms":{
+		"imageURL":"",
+		"title":"Ravenous Swarms",
+		"footer":""
+	},
+	"rise_flame":{
+		"imageURL":"",
+		"title":"Rise, Flame",
+		"footer":""
+	},
+	"the_cleansing_fire":{
+		"imageURL":"",
+		"title":"The Cleansing Fire",
+		"footer":""
+	},
+	"the_fires_from_within":{
+		"imageURL":"",
+		"title":"The Fires from Within",
+		"footer":""
+	},
+	"the_souls_blade":{
+		"imageURL":"",
+		"title":"The Soul’s Blade",
+		"footer":""
+	},
+	"wall_of_fire":{
+		"imageURL":"",
+		"title":"Wall of Fire",
+		"footer":""
+	},
+	"wings_of_the_phoenix":{
+		"imageURL":"",
+		"title":"Wings of the Phoenix",
+		"footer":""
+	},
+	"bo_of_water":{
+		"imageURL":"",
+		"title":"Bō of Water",
+		"footer":""
+	},
+	"dance_of_seasons":{
+		"imageURL":"",
+		"title":"Dance of Seasons",
+		"footer":""
+	},
+	"dominion_of_suijin":{
+		"imageURL":"",
+		"title":"Dominion of Suijin",
+		"footer":""
+	},
+	"ever-changing_waves":{
+		"imageURL":"",
+		"title":"Ever-Changing Waves",
+		"footer":""
+	},
+	"hands_of_the_tides":{
+		"imageURL":"",
+		"title":"Hands of the Tides",
+		"footer":""
+	},
+	"heart_of_the_water_dragon":{
+		"imageURL":"",
+		"title":"Heart of the Water Dragon",
+		"footer":""
+	},
+	"inaris_blessing":{
+		"imageURL":"",
+		"title":"Inari’s Blessing",
+		"footer":""
+	},
+	"path_to_inner_peace":{
+		"imageURL":"",
+		"title":"Path to Inner Peace",
+		"footer":""
+	},
+	"reflections_of_pan_ku":{
+		"imageURL":"",
+		"title":"Reflections of P’an Ku",
+		"footer":""
+	},
+	"rise_water":{
+		"imageURL":"",
+		"title":"Rise, Water",
+		"footer":""
+	},
+	"stride_the_waves":{
+		"imageURL":"",
+		"title":"Stride the Waves",
+		"footer":""
+	},
+	"strike_the_tsunami":{
+		"imageURL":"",
+		"title":"Strike the Tsunami",
+		"footer":""
+	},
+	"suijins_embrace":{
+		"imageURL":"",
+		"title":"Suijin’s Embrace",
+		"footer":""
+	},
+	"sympathetic_energies":{
+		"imageURL":"",
+		"title":"Sympathetic Energies",
+		"footer":""
+	},
+	"the_rushing_wave":{
+		"imageURL":"",
+		"title":"The Rushing Wave",
+		"footer":""
+	}
 }

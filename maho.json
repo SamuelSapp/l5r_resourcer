@@ -1,8 +1,32 @@
 {
-	"rouse_the_soul":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"incite_haunting":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"grip_of_anguish":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"mark_of_desecration":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"sinful_whispers":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"unholy_fervor":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	}
+	"rouse_the_soul":{
+		"imageURL":"",
+		"title":"Rouse the Soul",
+		"footer":""
+	},
+	"incite_haunting":{
+		"imageURL":"",
+		"title":"Incite Haunting",
+		"footer":""
+	},
+	"grip_of_anguish":{
+		"imageURL":"",
+		"title":"Grip of Anguish",
+		"footer":""
+	},
+	"mark_of_desecration":{
+		"imageURL":"",
+		"title":"Mark of Desecration",
+		"footer":""
+	},
+	"sinful_whispers":{
+		"imageURL":"",
+		"title":"Sinful Whispers",
+		"footer":""
+	},
+	"unholy_fervor":{
+		"imageURL":"",
+		"title":"Unholy Fervor",
+		"footer":""
+	}
 }

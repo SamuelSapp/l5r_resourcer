@@ -1,25 +1,117 @@
 {
-	"cleansing_spirit":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"earth_needs_no_eyes":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"earthen_fist":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"grasp_the_earth_dragon":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"way_of_the_earthquake":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"air_fist":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"riding_the_clouds":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"the_great_silence":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"way_of_the_willow":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"breaking_blow":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"channel_the_fire_dragon":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"flame_fist":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"the_body_is_an_anvil":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"way_of_the_falling_star":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"freezing_the_lifeblood":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"ki_protection":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"ride_the_water_dragon":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"water_fist":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"way_of_the_seafoam":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"death_touch":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"still_the_elements":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"touch_the_void_dragon":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"way_of_the_edgeless_sword":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	}
+	"air_fist":{
+		"imageURL":"",
+		"title":"Air Fist",
+		"footer":""
+	},
+	"riding_the_clouds":{
+		"imageURL":"",
+		"title":"Riding the Clouds",
+		"footer":""
+	},
+	"the_great_silence":{
+		"imageURL":"",
+		"title":"The Great Silence",
+		"footer":""
+	},
+	"way_of_the_willow":{
+		"imageURL":"",
+		"title":"Way of the Willow",
+		"footer":""
+	},
+	"cleansing_spirit":{
+		"imageURL":"",
+		"title":"Cleansing Spirit",
+		"footer":""
+	},
+	"earth_needs_no_eyes":{
+		"imageURL":"",
+		"title":"Earth Needs No Eyes",
+		"footer":""
+	},
+	"earthen_fist":{
+		"imageURL":"",
+		"title":"Earthen Fist",
+		"footer":""
+	},
+	"grasp_the_earth_dragon":{
+		"imageURL":"",
+		"title":"Grasp the Earth Dragon",
+		"footer":""
+	},
+	"way_of_the_earthquake":{
+		"imageURL":"",
+		"title":"Way of the Earthquake",
+		"footer":""
+	},
+	"breaking_blow":{
+		"imageURL":"",
+		"title":"Breaking Blow",
+		"footer":""
+	},
+	"channel_the_fire_dragon":{
+		"imageURL":"",
+		"title":"Channel the Fire Dragon",
+		"footer":""
+	},
+	"flame_fist":{
+		"imageURL":"",
+		"title":"Flame Fist",
+		"footer":""
+	},
+	"the_body_is_an_anvil":{
+		"imageURL":"",
+		"title":"The Body Is an Anvil",
+		"footer":""
+	},
+	"way_of_the_falling_star":{
+		"imageURL":"",
+		"title":"Way of the Falling Star",
+		"footer":""
+	},
+	"freezing_the_lifeblood":{
+		"imageURL":"",
+		"title":"Freezing the Lifeblood",
+		"footer":""
+	},
+	"ki_protection":{
+		"imageURL":"",
+		"title":"Ki Protection",
+		"footer":""
+	},
+	"ride_the_water_dragon":{
+		"imageURL":"",
+		"title":"Ride the Water Dragon",
+		"footer":""
+	},
+	"water_fist":{
+		"imageURL":"",
+		"title":"Water Fist",
+		"footer":""
+	},
+	"way_of_the_seafoam":{
+		"imageURL":"",
+		"title":"Way of the Seafoam",
+		"footer":""
+	},
+	"death_touch":{
+		"imageURL":"",
+		"title":"Death Touch",
+		"footer":""
+	},
+	"still_the_elements":{
+		"imageURL":"",
+		"title":"Still the Elements",
+		"footer":""
+	},
+	"touch_the_void_dragon":{
+		"imageURL":"",
+		"title":"Touch the Void Dragon",
+		"footer":""
+	},
+	"way_of_the_edgeless_sword":{
+		"imageURL":"",
+		"title":"Way of the Edgeless Sword",
+		"footer":""
+	}
 }

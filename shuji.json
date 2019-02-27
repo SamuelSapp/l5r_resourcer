@@ -1,44 +1,212 @@
 {
-	"artisans_appraisal":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"bend_with_the_storm":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"cadence":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"feigned_opening":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"prey_on_the_weak":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"rustling_of_leaves":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"the_wind_blows_both_ways":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"whispers_of_court":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"wolfs_proposal":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"ancestry_unearthed":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"civility_foremost":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"honest_assessment":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"pillar_of_calm":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"stonewall_tactics":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"touchstone_of_courage":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"the_immovable_hand_of_peace":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"weight_of_duty":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"bravado":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"dazzling_performance":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"fanning_the_flames":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"lightning_raid":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"rallying_cry":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"sear_the_wound":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"sensational_distraction":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"stirring_the_embers":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"truth_burns_through_lies":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"all_in_jest":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"buoyant_arrival":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"ebb_and_flow":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"regal_bearing":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"shallow_waters":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"slippery_maneuvers":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"tributaries_of_trade":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"well_of_desire":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"all_arts_are_one":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"a_samurais_fate":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"courtiers_resolve":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"lady_dojis_decree":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"lady_shinjos_speed":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"lord_akodos_roar":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"lord_bayushis_whispers":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"lord_togashis_insight":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	}
+	"artisans_appraisal":{
+		"imageURL":"",
+		"title":"Artisan’s Appraisal",
+		"footer":""
+	},
+	"bend_with_the_storm":{
+		"imageURL":"",
+		"title":"Bend with the Storm",
+		"footer":""
+	},
+	"cadence":{
+		"imageURL":"",
+		"title":"Cadence",
+		"footer":""
+	},
+	"feigned_opening":{
+		"imageURL":"",
+		"title":"Feigned Opening",
+		"footer":""
+	},
+	"prey_on_the_weak":{
+		"imageURL":"",
+		"title":"Prey on the Weak",
+		"footer":""
+	},
+	"rustling_of_leaves":{
+		"imageURL":"",
+		"title":"Rustling of Leaves",
+		"footer":""
+	},
+	"the_wind_blows_both_ways":{
+		"imageURL":"",
+		"title":"The Wind Blows Both Ways",
+		"footer":""
+	},
+	"whispers_of_court":{
+		"imageURL":"",
+		"title":"Whispers of Court",
+		"footer":""
+	},
+	"wolfs_proposal":{
+		"imageURL":"",
+		"title":"Wolf’s Proposal",
+		"footer":""
+	},
+	"ancestry_unearthed":{
+		"imageURL":"",
+		"title":"Ancestry Unearthed",
+		"footer":""
+	},
+	"civility_foremost":{
+		"imageURL":"",
+		"title":"Civility Foremost",
+		"footer":""
+	},
+	"honest_assessment":{
+		"imageURL":"",
+		"title":"Honest Assessment",
+		"footer":""
+	},
+	"pillar_of_calm":{
+		"imageURL":"",
+		"title":"Pillar of Calm",
+		"footer":""
+	},
+	"stonewall_tactics":{
+		"imageURL":"",
+		"title":"Stonewall Tactics",
+		"footer":""
+	},
+	"touchstone_of_courage":{
+		"imageURL":"",
+		"title":"Touchstone of Courage",
+		"footer":""
+	},
+	"the_immovable_hand_of_peace":{
+		"imageURL":"",
+		"title":"The Immovable Hand of Peace",
+		"footer":""
+	},
+	"weight_of_duty":{
+		"imageURL":"",
+		"title":"Weight of Duty",
+		"footer":""
+	},
+	"bravado":{
+		"imageURL":"",
+		"title":"Bravado",
+		"footer":""
+	},
+	"dazzling_performance":{
+		"imageURL":"",
+		"title":"Dazzling Performance",
+		"footer":""
+	},
+	"fanning_the_flames":{
+		"imageURL":"",
+		"title":"Fanning the Flames",
+		"footer":""
+	},
+	"lightning_raid":{
+		"imageURL":"",
+		"title":"Lightning Raid",
+		"footer":""
+	},
+	"rallying_cry":{
+		"imageURL":"",
+		"title":"Rallying Cry",
+		"footer":""
+	},
+	"sear_the_wound":{
+		"imageURL":"",
+		"title":"Sear the Wound",
+		"footer":""
+	},
+	"sensational_distraction":{
+		"imageURL":"",
+		"title":"Sensational Distraction",
+		"footer":""
+	},
+	"stirring_the_embers":{
+		"imageURL":"",
+		"title":"Stirring the Embers",
+		"footer":""
+	},
+	"truth_burns_through_lies":{
+		"imageURL":"",
+		"title":"Truth Burns through Lies",
+		"footer":""
+	},
+	"all_in_jest":{
+		"imageURL":"",
+		"title":"All in Jest",
+		"footer":""
+	},
+	"buoyant_arrival":{
+		"imageURL":"",
+		"title":"Buoyant Arrival",
+		"footer":""
+	},
+	"ebb_and_flow":{
+		"imageURL":"",
+		"title":"Ebb and Flow",
+		"footer":""
+	},
+	"regal_bearing":{
+		"imageURL":"",
+		"title":"Regal Bearing",
+		"footer":""
+	},
+	"shallow_waters":{
+		"imageURL":"",
+		"title":"Shallow Waters",
+		"footer":""
+	},
+	"slippery_maneuvers":{
+		"imageURL":"",
+		"title":"Slippery Maneuvers",
+		"footer":""
+	},
+	"tributaries_of_trade":{
+		"imageURL":"",
+		"title":"Tributaries of Trade",
+		"footer":""
+	},
+	"well_of_desire":{
+		"imageURL":"",
+		"title":"Well of Desire",
+		"footer":""
+	},
+	"all_arts_are_one":{
+		"imageURL":"",
+		"title":"All Arts Are One",
+		"footer":""
+	},
+	"a_samurais_fate":{
+		"imageURL":"",
+		"title":"A Samurai’s Fate",
+		"footer":""
+	},
+	"courtiers_resolve":{
+		"imageURL":"",
+		"title":"Courtier’s Resolve",
+		"footer":""
+	},
+	"lady_dojis_decree":{
+		"imageURL":"",
+		"title":"Lady Doji’s Decree",
+		"footer":""
+	},
+	"lady_shinjos_speed":{
+		"imageURL":"",
+		"title":"Lady Shinjo’s Speed",
+		"footer":""
+	},
+	"lord_akodos_roar":{
+		"imageURL":"",
+		"title":"Lord Akodo’s Roar",
+		"footer":""
+	},
+	"lord_bayushis_whispers":{
+		"imageURL":"",
+		"title":"Lord Bayushi’s Whispers",
+		"footer":""
+	},
+	"lord_togashis_insight":{
+		"imageURL":"",
+		"title":"Lord Togashi’s Insight",
+		"footer":""
+	}
 }

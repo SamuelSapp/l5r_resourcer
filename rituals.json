@@ -1,7 +1,27 @@
 {
-	"cleansing_rite":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"commune_with_the_spirits":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"divination":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"tea_ceremony":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	},
-	"threshold_barrier":{		"imageURL":"https://i.imgur.com/eEjzKay.png",		"title":"Battle in the Mind",		"footer":"dunno"	}
+	"cleansing_rite":{
+		"imageURL":"",
+		"title":"Cleansing Rite",
+		"footer":""
+	},
+	"commune_with_the_spirits":{
+		"imageURL":"",
+		"title":"Commune with the Spirits",
+		"footer":""
+	},
+	"divination":{
+		"imageURL":"",
+		"title":"Divination",
+		"footer":""
+	},
+	"tea_ceremony":{
+		"imageURL":"",
+		"title":"Tea Ceremony",
+		"footer":""
+	},
+	"threshold_barrier":{
+		"imageURL":"",
+		"title":"Threshold Barrier",
+		"footer":""
+	}
 }

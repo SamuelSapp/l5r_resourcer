@@ -16,10 +16,16 @@ let prefix = "-";
 client.on("message", (message) => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 	
+	if (message.author.username === "Moose") {
+		message.channel.send("Fuck off, Moose");
+	} else {
+	
 	var command = message.content.toLowerCase();
-	command = command.replace("-", "");
+	//command = command.substring(1);
+	command = command.replace(/(?![a-z])./g, '')
 	
 	const embed = new Discord.RichEmbed();
+	embed.setColor("#017cba")
 	
 	var validCommand = false
 	
@@ -71,13 +77,14 @@ client.on("message", (message) => {
 		validCommand = true;
 		embed.setImage("https://i.imgur.com/zUeBxmP.gif")
 			.setAuthor("No")
-			.setDescription("go kill yourself");
+			.setDescription("go fuck yourself");
 	}
 	
 	if (validCommand) {
 		message.channel.send({embed});
 	} else {
 		message.channel.send("Something went wrong, my dude.");
+	}
 	}
 });
  

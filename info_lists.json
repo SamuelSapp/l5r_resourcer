@@ -14,13 +14,13 @@
 	
 	
 	"kata":{
-		"title":"Technique Categories",
+		"title":"Kata Categories",
 		"description":"-general_kata\n-close_combat_kata\n-ranged_kata"
 	},
 	
 	
 	"gen_kata":{
-		"title":"Technique Categories",
+		"title":"General Kata",
 		"description":"Battle in the Mind | -battle_in_the_mind\nBreath of Wind Style | -breath_of_wind_style\nCrashing Wave Style | -crashing_wave_style\nCrescent Moon Style | -crescent_moon_style\nCrimson Leaves Strike | -crimson_leaves_strike\nDisappearing World Style | -disappearing_world_style\nFlowing Water Strike | -flowing_water_strike\nHeartpiercing Strike | -heartpiercing_strike\nIron in the Mountains Style | -iron_in_the_mountains_style\nLord Hida’s Grip | -lord_hidas_grip\nLord Shiba’s Valor | -lord_shibas_valor\nSoaring Slice | -soaring_slice\nSoul Sunder | -soul_sunder\nStriking as Air | -striking_as_air\nStriking as Earth | -striking_as_earth\nStriking as Fire | -striking_as_fire\nStriking as Void | -striking_as_void\nStriking as Water | -striking_as_water\nTactical Assessment | -tactical_assessment\nWarrior’s Resolve | -warriors_resolve"
 	},
 	"cc_kata":{
