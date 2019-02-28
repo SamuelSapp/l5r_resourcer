@@ -1,10 +1,10 @@
 {
-	"cleansing_rite":{
+	"cleansingrite":{
 		"imageURL":"",
 		"title":"Cleansing Rite",
 		"footer":""
 	},
-	"commune_with_the_spirits":{
+	"communewiththespirits":{
 		"imageURL":"",
 		"title":"Commune with the Spirits",
 		"footer":""
@@ -14,12 +14,12 @@
 		"title":"Divination",
 		"footer":""
 	},
-	"tea_ceremony":{
+	"teaceremony":{
 		"imageURL":"",
 		"title":"Tea Ceremony",
 		"footer":""
 	},
-	"threshold_barrier":{
+	"thresholdbarrier":{
 		"imageURL":"",
 		"title":"Threshold Barrier",
 		"footer":""

@@ -1,160 +1,160 @@
 {
-	"battle_in_the_mind":{
+	"battleinthemind":{
 		"imageURL":"",
 		"title":"Battle in the Mind",
 		"footer":""
 	},
-	"breath_of_wind_style":{
+	"breathofwindstyle":{
 		"imageURL":"",
 		"title":"Breath of Wind Style",
 		"footer":""
 	},
-	"crashing_wave_style":{
+	"crashingwavestyle":{
 		"imageURL":"",
 		"title":"Crashing Wave Style",
 		"footer":""
 	},
-	"crescent_moon_style":{
+	"crescentmoonstyle":{
 		"imageURL":"",
 		"title":"Crescent Moon Style",
 		"footer":""
 	},
-	"crimson_leaves_strike":{
+	"crimsonleavesstrike":{
 		"imageURL":"",
 		"title":"Crimson Leaves Strike",
 		"footer":""
 	},
-	"disappearing_world_style":{
+	"disappearingworldstyle":{
 		"imageURL":"",
 		"title":"Disappearing World Style",
 		"footer":""
 	},
-	"flowing_water_strike":{
+	"flowingwaterstrike":{
 		"imageURL":"",
 		"title":"Flowing Water Strike",
 		"footer":""
 	},
-	"heartpiercing_strike":{
+	"heartpiercingstrike":{
 		"imageURL":"",
 		"title":"Heartpiercing Strike",
 		"footer":""
 	},
-	"iron_in_the_mountains_style":{
+	"ironinthemountainsstyle":{
 		"imageURL":"",
 		"title":"Iron in the Mountains Style",
 		"footer":""
 	},
-	"lord_hidas_grip":{
+	"lordhidasgrip":{
 		"imageURL":"",
 		"title":"Lord Hida’s Grip",
 		"footer":""
 	},
-	"lord_shibas_valor":{
+	"lordshibasvalor":{
 		"imageURL":"",
 		"title":"Lord Shiba’s Valor",
 		"footer":""
 	},
-	"soaring_slice":{
+	"soaringslice":{
 		"imageURL":"",
 		"title":"Soaring Slice",
 		"footer":""
 	},
-	"soul_sunder":{
+	"soulsunder":{
 		"imageURL":"",
 		"title":"Soul Sunder",
 		"footer":""
 	},
-	"striking_as_air":{
+	"strikingasair":{
 		"imageURL":"",
 		"title":"Striking as Air",
 		"footer":""
 	},
-	"striking_as_earth":{
+	"strikingasearth":{
 		"imageURL":"",
 		"title":"Striking as Earth",
 		"footer":""
 	},
-	"striking_as_fire":{
+	"strikingasfire":{
 		"imageURL":"",
 		"title":"Striking as Fire",
 		"footer":""
 	},
-	"striking_as_void":{
+	"strikingasvoid":{
 		"imageURL":"",
 		"title":"Striking as Void",
 		"footer":""
 	},
-	"striking_as_water":{
+	"strikingaswater":{
 		"imageURL":"",
 		"title":"Striking as Water",
 		"footer":""
 	},
-	"tactical_assessment":{
+	"tacticalassessment":{
 		"imageURL":"",
 		"title":"Tactical Assessment",
 		"footer":""
 	},
-	"warriors_resolve":{
+	"warriorsresolve":{
 		"imageURL":"",
 		"title":"Warrior’s Resolve",
 		"footer":""
 	},
-	"coiling_serpent_style":{
+	"coilingserpentstyle":{
 		"imageURL":"",
 		"title":"Coiling Serpent Style",
 		"footer":""
 	},
-	"iaijutsu_cut_crossing_blade":{
+	"iaijutsucutcrossingblade":{
 		"imageURL":"",
 		"title":"Iaijutsu Cut: Crossing Blade",
 		"footer":""
 	},
-	"iaijutsu_cut_rising_blade":{
+	"iaijutsucutrisingblade":{
 		"imageURL":"",
 		"title":"Iaijutsu Cut: Rising Blade",
 		"footer":""
 	},
-	"iron_forest_style":{
+	"ironforeststyle":{
 		"imageURL":"",
 		"title":"Iron Forest Style",
 		"footer":""
 	},
-	"open-hand_style":{
+	"openhandstyle":{
 		"imageURL":"",
 		"title":"Open-Hand Style",
 		"footer":""
 	},
-	"rushing_avalanche_style":{
+	"rushingavalanchestyle":{
 		"imageURL":"",
 		"title":"Rushing Avalanche Style",
 		"footer":""
 	},
-	"spinning_blades_style":{
+	"spinningbladesstyle":{
 		"imageURL":"",
 		"title":"Spinning Blades Style",
 		"footer":""
 	},
-	"thunderclap_strike":{
+	"thunderclapstrike":{
 		"imageURL":"",
 		"title":"Thunderclap Strike",
 		"footer":""
 	},
-	"veiled_menace_style":{
+	"veiledmenacestyle":{
 		"imageURL":"https://i.imgur.com/eEjzKay.png",
 		"title":"Veiled Menace Style",
 		"footer":"Technique, Kata, Close Combat Kata, pg. 181"
 	},
-	"hawks_precision":{
+	"hawksprecision":{
 		"imageURL":"https://i.imgur.com/eEjzKay.png",
 		"title":"Hawk’s Precision",
 		"footer":"Technique, Kata, Ranged Kata, pg. 181"
 	},
-	"pelting_hail_style":{
+	"peltinghailstyle":{
 		"imageURL":"https://i.imgur.com/eEjzKay.png",
 		"title":"Pelting Hail Style",
 		"footer":"Technique, Kata, Ranged Kata, pg. 181"
 	},
-	"pin_the_fan":{
+	"pinthefan":{
 		"imageURL":"https://i.imgur.com/eEjzKay.png",
 		"title":"Pin the Fan",
 		"footer":"Technique, Kata, Ranged Kata, pg. 181"
