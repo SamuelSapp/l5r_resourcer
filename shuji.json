@@ -170,43 +170,48 @@
 		"footer":""
 	},
 	"all_arts_are_one":{
-		"imageURL":"",
+		"imageURL":"https://i.imgur.com/nJu3ueg.png",
 		"title":"All Arts Are One",
-		"footer":""
+		"footer":"Technique, Shuji, Void Shuji"
 	},
 	"a_samurais_fate":{
-		"imageURL":"",
+		"imageURL":"https://i.imgur.com/tc4YFDC.png",
 		"title":"A Samurai’s Fate",
-		"footer":""
+		"footer":"Technique, Shuji, Void Shuji"
 	},
 	"courtiers_resolve":{
-		"imageURL":"",
+		"imageURL":"https://i.imgur.com/u82zlda.png",
 		"title":"Courtier’s Resolve",
-		"footer":""
+		"footer":"Technique, Shuji, Void Shuji"
 	},
 	"lady_dojis_decree":{
-		"imageURL":"",
+		"imageURL":"https://i.imgur.com/ZNgij14.png",
 		"title":"Lady Doji’s Decree",
-		"footer":""
+		"footer":"Technique, Shuji, Void Shuji"
 	},
 	"lady_shinjos_speed":{
-		"imageURL":"",
+		"imageURL":"https://i.imgur.com/Fy72zZf.png",
 		"title":"Lady Shinjo’s Speed",
-		"footer":""
+		"footer":"Technique, Shuji, Void Shuji"
 	},
 	"lord_akodos_roar":{
-		"imageURL":"",
+		"imageURL":"https://i.imgur.com/AukQEvj.png",
 		"title":"Lord Akodo’s Roar",
-		"footer":""
+		"footer":"Technique, Shuji, Void Shuji"
 	},
 	"lord_bayushis_whispers":{
-		"imageURL":"",
+		"imageURL":"https://i.imgur.com/8Ty9Rz9.png",
 		"title":"Lord Bayushi’s Whispers",
-		"footer":""
+		"footer":"Technique, Shuji, Void Shuji"
 	},
 	"lord_togashis_insight":{
-		"imageURL":"",
+		"imageURL":"https://i.imgur.com/tr8Ihs9.png",
 		"title":"Lord Togashi’s Insight",
-		"footer":""
-	}
+		"footer":"Technique, Shuji, Void Shuji"
+	}	
+	"rouse_the_soul":{
+		"imageURL":"https://i.imgur.com/0kqM7Zu.png",
+		"title":"Rouse the Soul",
+		"footer":"Technique, Shuji, Void Shuji"
+	},
 }
