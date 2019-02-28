@@ -1,22 +1,22 @@
 {
 	"skulk":{
-		"imageURL":"",
+		"imageURL":"https://i.imgur.com/UeaUg4a.png",
 		"title":"Skulk",
-		"footer":""
+		"footer":"Technique, Ninjutsu"
 	},
 	"deadly_sting":{
-		"imageURL":"",
+		"imageURL":"https://i.imgur.com/4fiz1lB.png",
 		"title":"Deadly Sting",
-		"footer":""
+		"footer":"Technique, Ninjutsu"
 	},
 	"noxious_cloud":{
-		"imageURL":"",
+		"imageURL":"https://i.imgur.com/xTXEATI.png",
 		"title":"Noxious Cloud",
-		"footer":""
+		"footer":"Technique, Ninjutsu"
 	},
 	"silencing_stroke":{
-		"imageURL":"",
+		"imageURL":"https://i.imgur.com/Vj20nyl.png",
 		"title":"Silencing Stroke",
-		"footer":""
+		"footer":"Technique Ninjutsu"
 	}
 }
