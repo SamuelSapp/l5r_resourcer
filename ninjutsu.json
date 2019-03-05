@@ -1,21 +1,21 @@
 {
 	"skulk":{
-		"imageURL":"https://i.imgur.com/UeaUg4a.png",
+		"imageURL":"http://sappsoftware.com/l5r/technique/ninjutsu/skulk.PNG",
 		"title":"Skulk",
 		"footer":"Technique, Ninjutsu"
 	},
 	"deadlysting":{
-		"imageURL":"https://i.imgur.com/4fiz1lB.png",
+		"imageURL":"http://sappsoftware.com/l5r/technique/ninjutsu/deadlysting.PNG",
 		"title":"Deadly Sting",
 		"footer":"Technique, Ninjutsu"
 	},
 	"noxiouscloud":{
-		"imageURL":"https://i.imgur.com/xTXEATI.png",
+		"imageURL":"http://sappsoftware.com/l5r/technique/ninjutsu/noxiouscloud.PNG",
 		"title":"Noxious Cloud",
 		"footer":"Technique, Ninjutsu"
 	},
 	"silencingstroke":{
-		"imageURL":"https://i.imgur.com/Vj20nyl.png",
+		"imageURL":"http://sappsoftware.com/l5r/technique/ninjutsu/silencingstroke.PNG",
 		"title":"Silencing Stroke",
 		"footer":"Technique, Ninjutsu"
 	}

@@ -1,0 +1,14 @@
+{
+    "SamuelSapp": {
+        "active": "hiro",
+        "characters": {
+            "hiro": "hiro"
+        }
+    },
+    "Ceil": {
+        "active": "ceil",
+        "characters": {
+            "ceil": "ceil"
+        }
+    }
+}

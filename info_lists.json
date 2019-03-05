@@ -1,110 +1,262 @@
 {
-	"tech":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
-	},
 	"techniques":{
 		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+		"description":"-Kata\n-Kiho\n-Invocations\n-Rituals\n-Shuji\n-Maho\n-Ninjutsu"
 	},
 	"technique":{
 		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+		"description":"-Kata\n-Kiho\n-Invocations\n-Rituals\n-Shuji\n-Maho\n-Ninjutsu"
 	},
-	
-	
-	"kata":{
-		"title":"Kata Categories",
-		"description":"-general_kata\n-close_combat_kata\n-ranged_kata"
-	},
-	
-	
-	"gen_kata":{
-		"title":"General Kata",
-		"description":"Battle in the Mind | -battle_in_the_mind\nBreath of Wind Style | -breath_of_wind_style\nCrashing Wave Style | -crashing_wave_style\nCrescent Moon Style | -crescent_moon_style\nCrimson Leaves Strike | -crimson_leaves_strike\nDisappearing World Style | -disappearing_world_style\nFlowing Water Strike | -flowing_water_strike\nHeartpiercing Strike | -heartpiercing_strike\nIron in the Mountains Style | -iron_in_the_mountains_style\nLord Hida’s Grip | -lord_hidas_grip\nLord Shiba’s Valor | -lord_shibas_valor\nSoaring Slice | -soaring_slice\nSoul Sunder | -soul_sunder\nStriking as Air | -striking_as_air\nStriking as Earth | -striking_as_earth\nStriking as Fire | -striking_as_fire\nStriking as Void | -striking_as_void\nStriking as Water | -striking_as_water\nTactical Assessment | -tactical_assessment\nWarrior’s Resolve | -warriors_resolve"
-	},
-	"cc_kata":{
+	"tech":{
 		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+		"description":"-Kata\n-Kiho\n-Invocations\n-Rituals\n-Shuji\n-Maho\n-Ninjutsu"
 	},
-	"ranged_kata":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+	"invocations":{
+		"title":"Invocation Categories",
+		"description":"-Air Invocations\n-Earth Invocations\n-Fire Invocations\n-Water Invocations"
 	},
-	"kiho":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
-	},
-	"earth_kiho":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
-	},
-	"air_kiho":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
-	},
-	"water_kiho":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
-	},
-	"void_kiho":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+	"invocation":{
+		"title":"Invocation Categories",
+		"description":"-Air Invocations\n-Earth Invocations\n-Fire Invocations\n-Water Invocations"
 	},
 	"invo":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+		"title":"Invocation Categories",
+		"description":"-Air Invocations\n-Earth Invocations\n-Fire Invocations\n-Water Invocations"
 	},
-	"air_invo":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+	"airinvocations":{
+		"title":"Air Invocations",
+		"description":"-Blessed Wind\n-By the Light of the Lord Moon\n-Call Upon the Wind\n-Cloak of Night\n-False Realm of the Fox Spirits\n-Grasp of the Air Dragon\n-Mask of Wind\n-Nature’s Touch\n-Rise, Air\n-Secrets on the Wind\n-Summon Fog\n-Tempest of Air\n-Token of Memory\n-Vapor of Nightmares\n-Wrath of Kaze-no-Kami\n-Yari of Air"
 	},
-	"earth_invo":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+	"earthinvocations":{
+		"title":"Earth Invocations",
+		"description":"-Armor of Earth\n-Bind the Shadow\n-Caress of Earth\n-Courage of Seven Thunders\n-Earthquake\n-Earth Becomes Sky\n-Embrace of Kenro-Ji-Jin\n-Grasp of Earth\n-Jade Strike\n-Jurōjin’s Balm\n-Power of the Earth Dragon\n-Rise, Earth\n-Symbol of Earth\n-Tetsubō of Earth\n-Tomb of Jade\n-Wall of Earth"
 	},
-	"water_invo":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+	"fireinvocations":{
+		"title":"Fire Invocations",
+		"description":"-Armor of Radiance\n-Biting Steel\n-Breath of the Fire Dragon\n-Extinguish\n-Fukurokujin’s Wit\n-Fury of Osano-wo\n-Katana of Fire\n-Matsu's Battlecry\n-Ravenous Swarms\n-Rise, Flame\n-The Cleansing Fire\n-The Fires from Within\n-The Soul’s Blade\n-Wall of Fire\n-Wings of the Phoenix"
 	},
-	"fire_invo":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+	"waterinvocations":{
+		"title":"Water Invocations",
+		"description":"-Bō of Water\n-Dance of Seasons\n-Dominion of Suijin\n-Ever-Changing Waves\n-Hands of the Tides\n-Heart of the Water Dragon\n-Inari’s Blessing\n-Path to Inner Peace\n-Reflections of P’an Ku\n-Rise, Water\n-Stride the Waves\n-Strike the Tsunami\n-Suijin’s Embrace\n-Sympathetic Energies\n-The Rushing Wave"
 	},
-	"rituals":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+	"airinvocation":{
+		"title":"Air Invocations",
+		"description":"-Blessed Wind\n-By the Light of the Lord Moon\n-Call Upon the Wind\n-Cloak of Night\n-False Realm of the Fox Spirits\n-Grasp of the Air Dragon\n-Mask of Wind\n-Nature’s Touch\n-Rise, Air\n-Secrets on the Wind\n-Summon Fog\n-Tempest of Air\n-Token of Memory\n-Vapor of Nightmares\n-Wrath of Kaze-no-Kami\n-Yari of Air"
 	},
-	"shuji":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+	"earthinvocation":{
+		"title":"Earth Invocations",
+		"description":"-Armor of Earth\n-Bind the Shadow\n-Caress of Earth\n-Courage of Seven Thunders\n-Earthquake\n-Earth Becomes Sky\n-Embrace of Kenro-Ji-Jin\n-Grasp of Earth\n-Jade Strike\n-Jurōjin’s Balm\n-Power of the Earth Dragon\n-Rise, Earth\n-Symbol of Earth\n-Tetsubō of Earth\n-Tomb of Jade\n-Wall of Earth"
 	},
-	"air_shuji":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+	"fireinvocation":{
+		"title":"Fire Invocations",
+		"description":"-Armor of Radiance\n-Biting Steel\n-Breath of the Fire Dragon\n-Extinguish\n-Fukurokujin’s Wit\n-Fury of Osano-wo\n-Katana of Fire\n-Matsu's Battlecry\n-Ravenous Swarms\n-Rise, Flame\n-The Cleansing Fire\n-The Fires from Within\n-The Soul’s Blade\n-Wall of Fire\n-Wings of the Phoenix"
 	},
-	"earth_shuji":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+	"waterinvocation":{
+		"title":"Water Invocations",
+		"description":"-Bō of Water\n-Dance of Seasons\n-Dominion of Suijin\n-Ever-Changing Waves\n-Hands of the Tides\n-Heart of the Water Dragon\n-Inari’s Blessing\n-Path to Inner Peace\n-Reflections of P’an Ku\n-Rise, Water\n-Stride the Waves\n-Strike the Tsunami\n-Suijin’s Embrace\n-Sympathetic Energies\n-The Rushing Wave"
 	},
-	"water_shuji":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+	"airinvo":{
+		"title":"Air Invocations",
+		"description":"-Blessed Wind\n-By the Light of the Lord Moon\n-Call Upon the Wind\n-Cloak of Night\n-False Realm of the Fox Spirits\n-Grasp of the Air Dragon\n-Mask of Wind\n-Nature’s Touch\n-Rise, Air\n-Secrets on the Wind\n-Summon Fog\n-Tempest of Air\n-Token of Memory\n-Vapor of Nightmares\n-Wrath of Kaze-no-Kami\n-Yari of Air"
 	},
-	"fire_shuji":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+	"earthinvo":{
+		"title":"Earth Invocations",
+		"description":"-Armor of Earth\n-Bind the Shadow\n-Caress of Earth\n-Courage of Seven Thunders\n-Earthquake\n-Earth Becomes Sky\n-Embrace of Kenro-Ji-Jin\n-Grasp of Earth\n-Jade Strike\n-Jurōjin’s Balm\n-Power of the Earth Dragon\n-Rise, Earth\n-Symbol of Earth\n-Tetsubō of Earth\n-Tomb of Jade\n-Wall of Earth"
 	},
-	"void_shuji":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+	"fireinvo":{
+		"title":"Fire Invocations",
+		"description":"-Armor of Radiance\n-Biting Steel\n-Breath of the Fire Dragon\n-Extinguish\n-Fukurokujin’s Wit\n-Fury of Osano-wo\n-Katana of Fire\n-Matsu's Battlecry\n-Ravenous Swarms\n-Rise, Flame\n-The Cleansing Fire\n-The Fires from Within\n-The Soul’s Blade\n-Wall of Fire\n-Wings of the Phoenix"
+	},
+	"waterinvo":{
+		"title":"Water Invocations",
+		"description":"-Bō of Water\n-Dance of Seasons\n-Dominion of Suijin\n-Ever-Changing Waves\n-Hands of the Tides\n-Heart of the Water Dragon\n-Inari’s Blessing\n-Path to Inner Peace\n-Reflections of P’an Ku\n-Rise, Water\n-Stride the Waves\n-Strike the Tsunami\n-Suijin’s Embrace\n-Sympathetic Energies\n-The Rushing Wave"
+	},
+	"ainvocations":{
+		"title":"Air Invocations",
+		"description":"-Blessed Wind\n-By the Light of the Lord Moon\n-Call Upon the Wind\n-Cloak of Night\n-False Realm of the Fox Spirits\n-Grasp of the Air Dragon\n-Mask of Wind\n-Nature’s Touch\n-Rise, Air\n-Secrets on the Wind\n-Summon Fog\n-Tempest of Air\n-Token of Memory\n-Vapor of Nightmares\n-Wrath of Kaze-no-Kami\n-Yari of Air"
+	},
+	"einvocations":{
+		"title":"Earth Invocations",
+		"description":"-Armor of Earth\n-Bind the Shadow\n-Caress of Earth\n-Courage of Seven Thunders\n-Earthquake\n-Earth Becomes Sky\n-Embrace of Kenro-Ji-Jin\n-Grasp of Earth\n-Jade Strike\n-Jurōjin’s Balm\n-Power of the Earth Dragon\n-Rise, Earth\n-Symbol of Earth\n-Tetsubō of Earth\n-Tomb of Jade\n-Wall of Earth"
+	},
+	"finvocations":{
+		"title":"Fire Invocations",
+		"description":"-Armor of Radiance\n-Biting Steel\n-Breath of the Fire Dragon\n-Extinguish\n-Fukurokujin’s Wit\n-Fury of Osano-wo\n-Katana of Fire\n-Matsu's Battlecry\n-Ravenous Swarms\n-Rise, Flame\n-The Cleansing Fire\n-The Fires from Within\n-The Soul’s Blade\n-Wall of Fire\n-Wings of the Phoenix"
+	},
+	"winvocations":{
+		"title":"Water Invocations",
+		"description":"-Bō of Water\n-Dance of Seasons\n-Dominion of Suijin\n-Ever-Changing Waves\n-Hands of the Tides\n-Heart of the Water Dragon\n-Inari’s Blessing\n-Path to Inner Peace\n-Reflections of P’an Ku\n-Rise, Water\n-Stride the Waves\n-Strike the Tsunami\n-Suijin’s Embrace\n-Sympathetic Energies\n-The Rushing Wave"
+	},
+	"ainvocation":{
+		"title":"Air Invocations",
+		"description":"-Blessed Wind\n-By the Light of the Lord Moon\n-Call Upon the Wind\n-Cloak of Night\n-False Realm of the Fox Spirits\n-Grasp of the Air Dragon\n-Mask of Wind\n-Nature’s Touch\n-Rise, Air\n-Secrets on the Wind\n-Summon Fog\n-Tempest of Air\n-Token of Memory\n-Vapor of Nightmares\n-Wrath of Kaze-no-Kami\n-Yari of Air"
+	},
+	"einvocation":{
+		"title":"Earth Invocations",
+		"description":"-Armor of Earth\n-Bind the Shadow\n-Caress of Earth\n-Courage of Seven Thunders\n-Earthquake\n-Earth Becomes Sky\n-Embrace of Kenro-Ji-Jin\n-Grasp of Earth\n-Jade Strike\n-Jurōjin’s Balm\n-Power of the Earth Dragon\n-Rise, Earth\n-Symbol of Earth\n-Tetsubō of Earth\n-Tomb of Jade\n-Wall of Earth"
+	},
+	"finvocation":{
+		"title":"Fire Invocations",
+		"description":"-Armor of Radiance\n-Biting Steel\n-Breath of the Fire Dragon\n-Extinguish\n-Fukurokujin’s Wit\n-Fury of Osano-wo\n-Katana of Fire\n-Matsu's Battlecry\n-Ravenous Swarms\n-Rise, Flame\n-The Cleansing Fire\n-The Fires from Within\n-The Soul’s Blade\n-Wall of Fire\n-Wings of the Phoenix"
+	},
+	"winvocation":{
+		"title":"Water Invocations",
+		"description":"-Bō of Water\n-Dance of Seasons\n-Dominion of Suijin\n-Ever-Changing Waves\n-Hands of the Tides\n-Heart of the Water Dragon\n-Inari’s Blessing\n-Path to Inner Peace\n-Reflections of P’an Ku\n-Rise, Water\n-Stride the Waves\n-Strike the Tsunami\n-Suijin’s Embrace\n-Sympathetic Energies\n-The Rushing Wave"
+	},
+	"ainvo":{
+		"title":"Air Invocations",
+		"description":"-Blessed Wind\n-By the Light of the Lord Moon\n-Call Upon the Wind\n-Cloak of Night\n-False Realm of the Fox Spirits\n-Grasp of the Air Dragon\n-Mask of Wind\n-Nature’s Touch\n-Rise, Air\n-Secrets on the Wind\n-Summon Fog\n-Tempest of Air\n-Token of Memory\n-Vapor of Nightmares\n-Wrath of Kaze-no-Kami\n-Yari of Air"
+	},
+	"einvo":{
+		"title":"Earth Invocations",
+		"description":"-Armor of Earth\n-Bind the Shadow\n-Caress of Earth\n-Courage of Seven Thunders\n-Earthquake\n-Earth Becomes Sky\n-Embrace of Kenro-Ji-Jin\n-Grasp of Earth\n-Jade Strike\n-Jurōjin’s Balm\n-Power of the Earth Dragon\n-Rise, Earth\n-Symbol of Earth\n-Tetsubō of Earth\n-Tomb of Jade\n-Wall of Earth"
+	},
+	"finvo":{
+		"title":"Fire Invocations",
+		"description":"-Armor of Radiance\n-Biting Steel\n-Breath of the Fire Dragon\n-Extinguish\n-Fukurokujin’s Wit\n-Fury of Osano-wo\n-Katana of Fire\n-Matsu's Battlecry\n-Ravenous Swarms\n-Rise, Flame\n-The Cleansing Fire\n-The Fires from Within\n-The Soul’s Blade\n-Wall of Fire\n-Wings of the Phoenix"
+	},
+	"winvo":{
+		"title":"Water Invocations",
+		"description":"-Bō of Water\n-Dance of Seasons\n-Dominion of Suijin\n-Ever-Changing Waves\n-Hands of the Tides\n-Heart of the Water Dragon\n-Inari’s Blessing\n-Path to Inner Peace\n-Reflections of P’an Ku\n-Rise, Water\n-Stride the Waves\n-Strike the Tsunami\n-Suijin’s Embrace\n-Sympathetic Energies\n-The Rushing Wave"
+	},
+	"kata":{
+		"title":"Kata Categories",
+		"description":"-General Kata\n-Close Combat Kata\n-Ranged Kata"
+	},
+	"gkata":{
+		"title":"General Kata",
+		"description":"-Battle in the Mind\n-Breath of Wind Style\n-Crashing Wave Style\n-Crescent Moon Style\n-Crimson Leaves Strike\n-Disappearing World Style\n-Flowing Water Strike\n-Heartpiercing Strike\n-Iron in the Mountains Style\n-Lord Hida’s Grip\n-Lord Shiba’s Valor\n-Soaring Slice\n-Soul Sunder\n-Striking as Air\n-Striking as Earth\n-Striking as Fire\n-Striking as Void\n-Striking as Water\n-Tactical Assessment\n-Warrior’s Resolve"
+	},
+	"genkata":{
+		"title":"General Kata",
+		"description":"-Battle in the Mind\n-Breath of Wind Style\n-Crashing Wave Style\n-Crescent Moon Style\n-Crimson Leaves Strike\n-Disappearing World Style\n-Flowing Water Strike\n-Heartpiercing Strike\n-Iron in the Mountains Style\n-Lord Hida’s Grip\n-Lord Shiba’s Valor\n-Soaring Slice\n-Soul Sunder\n-Striking as Air\n-Striking as Earth\n-Striking as Fire\n-Striking as Void\n-Striking as Water\n-Tactical Assessment\n-Warrior’s Resolve"
+	},
+	"generalkata":{
+		"title":"General Kata",
+		"description":"-Battle in the Mind\n-Breath of Wind Style\n-Crashing Wave Style\n-Crescent Moon Style\n-Crimson Leaves Strike\n-Disappearing World Style\n-Flowing Water Strike\n-Heartpiercing Strike\n-Iron in the Mountains Style\n-Lord Hida’s Grip\n-Lord Shiba’s Valor\n-Soaring Slice\n-Soul Sunder\n-Striking as Air\n-Striking as Earth\n-Striking as Fire\n-Striking as Void\n-Striking as Water\n-Tactical Assessment\n-Warrior’s Resolve"
+	},
+	"cckata":{
+		"title":"Close Combat Kata",
+		"description":"-Coiling Serpent Style\n-Iaijutsu Cut: Crossing Blade\n-Iaijutsu Cut: Rising Blade\n-Iron Forest Style\n-Open-Hand Style\n-Rushing Avalanche Style\n-Spinning Blades Style\n-Thunderclap Strike\n-Veiled Menace Style"
+	},
+	"closecombatkata":{
+		"title":"Close Combat Kata",
+		"description":"-Coiling Serpent Style\n-Iaijutsu Cut: Crossing Blade\n-Iaijutsu Cut: Rising Blade\n-Iron Forest Style\n-Open-Hand Style\n-Rushing Avalanche Style\n-Spinning Blades Style\n-Thunderclap Strike\n-Veiled Menace Style"
+	},
+	"rkata":{
+		"title":"Ranged Kata",
+		"description":"-Hawk’s Precision\n-Pelting Hail Style\n-Pin the Fan"
+	},
+	"rangedkata":{
+		"title":"Ranged Kata",
+		"description":"-Hawk’s Precision\n-Pelting Hail Style\n-Pin the Fan"
+	},
+	"kiho":{
+		"title":"Kiho Categories",
+		"description":"-Air Kiho\n-Earth Kiho\n-Fire Kiho\n-Water Kiho\n-Void Kiho"
+	},
+	"airkiho":{
+		"title":"Air Kiho",
+		"description":"-Air Fist\n-Riding the Clouds\n-The Great Silence\n-Way of the Willow"
+	},
+	"earthkiho":{
+		"title":"Earth Kiho",
+		"description":"-Cleansing Spirit\n-Earth Needs No Eyes\n-Earthen Fist\n-Grasp the Earth Dragon\n-Way of the Earthquake"
+	},
+	"firekiho":{
+		"title":"Fire Kiho",
+		"description":"-Breaking Blow\n-Channel the Fire Dragon\n-Flame Fist\n-The Body Is an Anvil\n-Way of the Falling Star"
+	},
+	"waterkiho":{
+		"title":"Water Kiho",
+		"description":"-Freezing the Lifeblood\n-Ki Protection\n-Ride the Water Dragon\n-Water Fist\n-Way of the Seafoam"
+	},
+	"voidkiho":{
+		"title":"Void Kiho",
+		"description":"-Death Touch\n-Still the Elements\n-Touch the Void Dragon\n-Way of the Edgeless Sword"
+	},
+	"akiho":{
+		"title":"Air Kiho",
+		"description":"-Air Fist\n-Riding the Clouds\n-The Great Silence\n-Way of the Willow"
+	},
+	"ekiho":{
+		"title":"Earth Kiho",
+		"description":"-Cleansing Spirit\n-Earth Needs No Eyes\n-Earthen Fist\n-Grasp the Earth Dragon\n-Way of the Earthquake"
+	},
+	"fkiho":{
+		"title":"Fire Kiho",
+		"description":"-Breaking Blow\n-Channel the Fire Dragon\n-Flame Fist\n-The Body Is an Anvil\n-Way of the Falling Star"
+	},
+	"wkiho":{
+		"title":"Water Kiho",
+		"description":"-Freezing the Lifeblood\n-Ki Protection\n-Ride the Water Dragon\n-Water Fist\n-Way of the Seafoam"
+	},
+	"vkiho":{
+		"title":"Void Kiho",
+		"description":"-Death Touch\n-Still the Elements\n-Touch the Void Dragon\n-Way of the Edgeless Sword"
 	},
 	"maho":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+		"title":"Maho",
+		"description":"-Incite Haunting\n-Grip of Anguish\n-Mark of Desecration\n-Sinful Whispers\n-Unholy Fervor"
 	},
 	"ninjutsu":{
-		"title":"Technique Categories",
-		"description":"-kata\n-kiho\n-invocations\n-rituals\n-shuji\n-maho\n-ninjutsu"
+		"title":"Ninjutsu",
+		"description":"-Skulk\n-Deadly Sting\n-Noxious Cloud\n-Silencing Stroke"
+	},
+	"nin":{
+		"title":"Nijutsu",
+		"description":"-Skulk\n-Deadly Sting\n-Noxious Cloud\n-Silencing Stroke"
+	},
+	"rituals":{
+		"title":"Rituals",
+		"description":"-Cleansing Rite\n-Commune with the Spirits\n-Divination\n-Tea Ceremony\n-Threshold Barrier"
+	},
+	"ritual":{
+		"title":"Rituals",
+		"description":"-Cleansing Rite\n-Commune with the Spirits\n-Divination\n-Tea Ceremony\n-Threshold Barrier"
+	},
+	"shuji":{
+		"title":"Shuji Categories",
+		"description":"-Air Shuji\n-Fire Shuji\n-Earth Shuji\n-Water Shuji"
+	},
+	"airshuji":{
+		"title":"Air Shuji",
+		"description":"-Artisan’s Appraisal\n-Bend with the Storm\n-Cadence\n-Feigned Opening\n-Prey on the Weak\n-Rustling of Leaves\n-The Wind Blows Both Ways\n-Whispers of Court\n-Wolf’s Proposal"
+	},
+	"fireshuji":{
+		"title":"Fire Shuji",
+		"description":"-Ancestry Unearthed\n-Civility Foremost\n-Honest Assessment\n-Pillar of Calm\n-Stonewall Tactics\n-Touchstone of Courage\n-The Immovable Hand of Peace\n-Weight of Duty"
+	},
+	"earthshuji":{
+		"title":"Earth Shuji",
+		"description":"-Bravado\n-Dazzling Performance\n-Fanning the Flames\n-Lightning Raid\n-Rallying Cry\n-Sear the Wound\n-Sensational Distraction\n-Stirring the Embers\n-Truth Burns through Lies"
+	},
+	"watershuji":{
+		"title":"Water Shuji",
+		"description":"-All in Jest\n-Buoyant Arrival\n-Ebb and Flow\n-Regal Bearing\n-Shallow Waters\n-Slippery Maneuvers\n-Tributaries of Trade\n-Well of Desire"
+	},
+	"voidshuji":{
+		"title":"Void Shuji",
+		"description":"-All Arts Are One\n-A Samurai’s Fate\n-Courtier’s Resolve\n-Lady Doji’s Decree\n-Lady Shinjo’s Speed\n-Lord Akodo’s Roar\n-Lord Bayushi’s Whispers\n-Lord Togashi’s Insight\n-Rouse the Soul"
+	},
+	"ashuji":{
+		"title":"Air Shuji",
+		"description":"-Artisan’s Appraisal\n-Bend with the Storm\n-Cadence\n-Feigned Opening\n-Prey on the Weak\n-Rustling of Leaves\n-The Wind Blows Both Ways\n-Whispers of Court\n-Wolf’s Proposal"
+	},
+	"fshuji":{
+		"title":"Fire Shuji",
+		"description":"-Ancestry Unearthed\n-Civility Foremost\n-Honest Assessment\n-Pillar of Calm\n-Stonewall Tactics\n-Touchstone of Courage\n-The Immovable Hand of Peace\n-Weight of Duty"
+	},
+	"eshuji":{
+		"title":"Earth Shuji",
+		"description":"-Bravado\n-Dazzling Performance\n-Fanning the Flames\n-Lightning Raid\n-Rallying Cry\n-Sear the Wound\n-Sensational Distraction\n-Stirring the Embers\n-Truth Burns through Lies"
+	},
+	"wshuji":{
+		"title":"Water Shuji",
+		"description":"-All in Jest\n-Buoyant Arrival\n-Ebb and Flow\n-Regal Bearing\n-Shallow Waters\n-Slippery Maneuvers\n-Tributaries of Trade\n-Well of Desire"
+	},
+	"vshuji":{
+		"title":"Void Shuji",
+		"description":"-All Arts Are One\n-A Samurai’s Fate\n-Courtier’s Resolve\n-Lady Doji’s Decree\n-Lady Shinjo’s Speed\n-Lord Akodo’s Roar\n-Lord Bayushi’s Whispers\n-Lord Togashi’s Insight\n-Rouse the Soul"
 	}
 }

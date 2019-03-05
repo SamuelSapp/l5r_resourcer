@@ -1,27 +1,27 @@
 {
 	"cleansingrite":{
-		"imageURL":"",
+		"imageURL":"http://sappsoftware.com/l5r/technique/ritual/cleansingrite.PNG",
 		"title":"Cleansing Rite",
-		"footer":""
+		"footer":"Technique, Rituals"
 	},
 	"communewiththespirits":{
-		"imageURL":"",
+		"imageURL":"http://sappsoftware.com/l5r/technique/ritual/communewiththespirits.PNG",
 		"title":"Commune with the Spirits",
-		"footer":""
+		"footer":"Technique, Rituals"
 	},
 	"divination":{
-		"imageURL":"",
+		"imageURL":"http://sappsoftware.com/l5r/technique/ritual/divination.PNG",
 		"title":"Divination",
-		"footer":""
+		"footer":"Technique, Rituals"
 	},
 	"teaceremony":{
-		"imageURL":"",
+		"imageURL":"http://sappsoftware.com/l5r/technique/ritual/teaceremony.PNG",
 		"title":"Tea Ceremony",
-		"footer":""
+		"footer":"Technique, Rituals"
 	},
 	"thresholdbarrier":{
-		"imageURL":"",
+		"imageURL":"http://sappsoftware.com/l5r/technique/ritual/thresholdbarrier.PNG",
 		"title":"Threshold Barrier",
-		"footer":""
+		"footer":"Technique, Rituals"
 	}
 }
