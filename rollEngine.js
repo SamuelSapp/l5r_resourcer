@@ -78,9 +78,10 @@ function newRoll(rollType, command) {
 };
 
 function keep(command, rollArray) {
-	var newRollArray = []
-	for (let i = 0; i < command.length; i++) {
-		let x = parseInt(command.charAt(i));
+	var newRollArray = [];
+	var newCommand = command.split('').sort();
+	for (let i = 0; i < newCommand.length; i++) {
+		let x = parseInt(newCommand[i]);
 		if (x <= rollArray.length) {
 			newRollArray.push(rollArray[x-1]);
 		}
@@ -158,6 +159,8 @@ function parseRollResults(rollArray) {
 	var resultStr = "";
 	var success = 0;
 	var expsuccess = 0;
+	var expsblack = 0;
+	var expswhite = 0;
 	var opportunity = 0;
 	var strife = 0;
 	
@@ -165,12 +168,24 @@ function parseRollResults(rollArray) {
 		diceStr += diceEmotes[item];
 		success += diceDetails[item].success;
 		expsuccess += diceDetails[item].expsuccess;
+		if(item > 6) {
+			expswhite += diceDetails[item].expsuccess;
+		} else {
+			expsblack += diceDetails[item].expsuccess;
+		}
 		opportunity += diceDetails[item].opportunity;
 		strife += diceDetails[item].strife;
 	});
 	
 	if (expsuccess > 0) {
-		resultStr += diceEmotes.expsuccess + expsuccess.toString();
+		resultStr += diceEmotes.expsuccess + "(";
+		if (expsblack > 0) {
+			resultStr += diceEmotes[1] + expsblack.toString();
+		}
+		if (expswhite > 0) {
+			resultStr += diceEmotes[7] + expswhite.toString();
+		}
+		resultStr += ")";
 	};
 	if (success > 0) {
 		resultStr += diceEmotes.success + success.toString();

@@ -20,7 +20,7 @@ let charprefix = "&";
 
 client.on('ready', () => {
 	rollEngine.loadEmotes(client.emojis);
-	charEngine.loadCharacterData();
+	charEngine.mysql_connect();
 });
 
 client.on("message", (message) => {
@@ -29,8 +29,7 @@ client.on("message", (message) => {
 	
 	if (message.content.startsWith(infoprefix)) {
 		
-		var command = message.content.toLowerCase();
-		command = command.replace(/(?![a-z])./g, '')
+		var command = message.content.toLowerCase().replace(/(?![a-z])./g, '');
 		
 		const embed = new Discord.RichEmbed();
 		embed.setColor("#017cba");
@@ -81,11 +80,22 @@ client.on("message", (message) => {
 			validCommand = true;
 			embed.setDescription(info_lists[command].description)
 			.setAuthor(info_lists[command].title)
-		} else if (command === "help") {
+		} else if (command == "help") {
 			validCommand = true;
 			embed.setImage("https://i.imgur.com/zUeBxmP.gif")
-			.setAuthor("No")
-			.setDescription("go fuck yourself");
+			.setAuthor("Information Help Menu")
+			.setDescription("-help | Information Help Menu\n!help | Rolling Help Menu\n&help | Character Help Menu")
+			.addField("-techniques", "Display the root of the Techniques Information Tree.")
+			.addField("-[technique-name]", "e.g. -earthquake - Display an information card for the given technique.");
+		} else if (command == "skills") {
+			validCommand = true;
+			embed.setAuthor("Skills")
+			.addField("Martial Arts Skills", "M.A. [Melee]: mamelee\nM.A. [Ranged]: maranged\nM.A. [Unarmed]: maunarmed",true)
+			.addField("Martial  Skills", "Fitness [Defense]: fitness\nMeditation: meditation\nTactics: tactics",true)
+			.addField("Artisan Skills", "Aesthetics: aesthetics\nComposition: composition\nDesign: design\nSmithing: smithing",true)
+			.addField("Social Skills", "Command: command\nCourtesy: courtesy\nGames: games\nPerformance:  performance",true)
+			.addField("Scholar Skills", "Culture: culture\nGovernment: government\nSentiment: sentiment\nTheology: theology\nMedicine: medicine",true)
+			.addField("Trade Skills", "Commerce: commerce\nLabor: labor\nSeafaring: seafaring\nSkulduggery: skulduggery\nSurvival: survival",true);
 		}
 		
 		if (validCommand) {
@@ -196,12 +206,16 @@ client.on("message", (message) => {
 					case "fire":
 					case "water":
 					case "void":
+					//Character Rolling Command
+					//-1 = unknown error
+					//-2 = user has no account
+					//-3 = user has no active character
 						if (param in charEngine.skills) {
 							var outcome = charEngine.getRoll(message.author.username, command, param);
-							if (outcome == -2) {
-								message.channel.send("You don't have any characters to roll with.");
-							} else if (outcome == -3) {
+							if (outcome == -3) {
 								message.channel.send("You don't have an active character.");
+							} else if (outcome == -2) {
+								message.channel.send("You don't have any characters to roll with.");
 							} else if (outcome == -1) {
 								message.channel.send("There was some weird error with your roll.");
 							} else {
@@ -223,6 +237,18 @@ client.on("message", (message) => {
 			//Error
 				message.channel.send("You have a space somewhere weird or something.");
 			}
+		} else if (splitMessage.substring(1) == "help") {
+			const embed = new Discord.RichEmbed();
+			embed.setColor("#017cba")
+			.setAuthor("Rolling Help Menu")
+			.setDescription("-help | Information Help Menu\n!help | Rolling Help Menu\n&help | Character Help Menu")
+			.addField("!roll [dice] or !r [dice]", "Rolls the indicated dice. [dice] can be formatted as 3s2r or sssrr - r or b represent Ring dice, s or w represent Skill dice.")
+			.addField("!keep [positions] or !k [positions]", "Keeps the indicated dice. [positions] is the position of dice to keep - e.g. !k 12 keeps the first and second dice, then discards the rest.")
+			.addField("!add [dice] or !a [dice]", "Adds the indicated dice. [dice] can be formatted as 3s2r or sssrr - r or b represent Ring dice, s or w represent Skill dice.")
+			.addField("!reroll [positions] or !rr [positions]", "Rerolls the indicated dice. [positions] is the position of dice to keep - e.g. !rr 12 rerolls the first and second dice, keeping the rest the same.")
+			.addField("![ring] [skill]", "Rolls the indicated ring and skill of your active character. Use -rings or -skills to view the available rings or skills.");
+			
+			message.channel.send({embed});
 		} else {
 		//Error
 			message.channel.send("Okay, but you need two parts fella.");
@@ -240,13 +266,17 @@ client.on("message", (message) => {
 					case "create":
 					//Create new character
 						param = param.toLowerCase().replace(/ /g, "");
-						var outcome = charEngine.create(message.author.username, param);
-						//-1 = taken
+						var outcome = charEngine.createChar(message.author.username, param);
+						//-1 = unknown error
+						//-2 = characterID already taken
+						//-3 = entered characterID is a number
 						//1 = success
 						if (outcome == 1) {
 							message.channel.send("Congratulations: " + param + " has been created and made your active character.");
-						} else if (outcome == -1) {
+						} else if (outcome == -2) {
 							message.channel.send("You already have a character with that ID, probably.");
+						} else if (outcome == -3) {
+							message.channel.send("Character ID can't be a number.");
 						} else {
 							message.channel.send("Unforeseen error while creating character");
 						}
@@ -254,10 +284,10 @@ client.on("message", (message) => {
 					case "active":
 					//Change active character
 						param = param.toLowerCase().replace(/ /g, "");
-						var outcome = charEngine.active(message.author.username, param);
-						//-1 = error
-						//-2 = nochar
-						//-3 = toolate
+						var outcome = charEngine.setActive(message.author.username, param);
+						//-1 = unknown error
+						//-2 = Character is not in the index or user doesn't exist
+						//-3 = character is already active
 						//1 = success
 						if (outcome == 1) {
 							message.channel.send("Switched active character to " + param);
@@ -271,18 +301,28 @@ client.on("message", (message) => {
 					break;
 					case "set":
 					//Set a parameter's value
+					//-1 = parameter not listed
+					//-2 = invalid number command parameter
+					//-3 = character is locked
+					//-4 = no active character
+					//-5 = non-number parameter too long
+					//string = success
 						var secondSplitIndex = param.indexOf(" ");
 						if (secondSplitIndex != -1) {
 							var setCommand = param.substring(0,secondSplitIndex).toLowerCase();
 							var param = param.substring(secondSplitIndex+1).trim();
-							var outcome = charEngine.set(message.author.username, setCommand, param);
-							//-1 = error
-							//-2 = NaN
-							//success = string
+							var outcome = charEngine.setValue(message.author.username, setCommand, param);
+							
 							if (outcome == -1) {
-								message.channel.send("Couldn't find the parameter you wanted");
+								message.channel.send("Couldn't find the parameter you wanted.");
 							} else if (outcome == -2){
-								message.channel.send("Did you try to put not a number in a number thing?");
+								message.channel.send("Number input was negative, too large, or not a number.");
+							} else if (outcome == -3) {
+								message.channel.send("Your active character is locked.");
+							} else if (outcome == -4) {
+								message.channel.send("You don't seem to have an active character.");
+							} else if (outcome == -5) {
+								message.channel.send("Your input was too long.");
 							} else {
 								message.channel.send(outcome + "'s " + setCommand + " has been set to " + param);
 							}
@@ -294,9 +334,9 @@ client.on("message", (message) => {
 					//Delete a character
 						param = param.toLowerCase().replace(/ /g, "");
 						var outcome = charEngine.deleteChar(message.author.username, param);
-						//-1 = error
+						//-1 = unknown error
 						//-2 = no characters
-						//-3 = wrong character
+						//-3 = Character ID not present
 						//-4 = character is edit-locked
 						//1 = success
 						if (outcome == 1) {
@@ -315,6 +355,8 @@ client.on("message", (message) => {
 						var outcome = charEngine.lock(message.author.username, param);
 						if (outcome == 1) {
 							message.channel.send("Your character has been locked and cannot be altered until unlocked.");
+						} else if (outcome == -3) {
+							message.channel.send("That character is already locked.");
 						} else {
 							message.channel.send("I couldn't find that character.");
 						}
@@ -325,6 +367,8 @@ client.on("message", (message) => {
 						var outcome = charEngine.unlock(message.author.username, param);
 						if (outcome == 1) {
 							message.channel.send("Your character has been unlocked and you're free to edit it.");
+						}  else if (outcome == -3) {
+							message.channel.send("That character is already unlocked.");
 						} else {
 							message.channel.send("I couldn't find that character.");
 						}
@@ -335,31 +379,109 @@ client.on("message", (message) => {
 						.setColor("#017cba");
 						param = param.replace(/ /g, "");
 						const username = message.author.username;
-						//const username = "protolad";
 						
 						if ((username in charEngine.characters) && (param in charEngine.characters[username])) {
-							const showChar = charEngine.characters[username][param];
-							embed.setAuthor(showChar["name"])
-							.setTitle("Air " + showChar["air"] + " - Earth " + showChar["earth"] + " - Fire " + showChar["fire"] + " - Water " + showChar["water"] + " - Void " + showChar["void"])
-							.setDescription("| Endurance: " + showChar["fatigue"] + "/" + (parseInt(showChar["earth"]) + parseInt(showChar["fire"]))*2 + " | Composure: " + showChar["strife"] + "/" + (parseInt(showChar["earth"]) + parseInt(showChar["water"]))*2 + " | Focus: " + (parseInt(showChar["air"]) + parseInt(showChar["fire"])) + " | Vigilance: " + Math.ceil((parseFloat(showChar["air"]) + parseFloat(showChar["water"]))/2.0) + " | Void Points: " + showChar["voidpoints"] + "/" + showChar["void"] + " |\n| Honor: " + showChar["honor"] + " | Glory: " + showChar["glory"] + " | Status: " + showChar["status"] + " |")
-							.addField("Martial Arts Skills", "M.A. [Melee]: " + showChar["mamelee"] + "\nM.A. [Ranged]: " + showChar["maranged"] + "\nM.A. [Unarmed]: " + showChar["maunarmed"],true)
-							.addField("Martial  Skills", "Fitness [Defense]: " + showChar["fitness"] + "\nMeditation: " + showChar["meditation"] + "\nTactics: " + showChar["tactics"],true)
-							.addField("Artisan Skills", "Aesthetics: " + showChar["aesthetics"] + "\nComposition: " + showChar["composition"] + "\nDesign: " + showChar["design"] + "\nSmithing: " + showChar["smithing"],true)
-							.addField("Social Skills", "Command: " + showChar["command"] + "\nCourtesy: " + showChar["courtesy"] + "\nGames: " + showChar["games"] + "\nPerformance:  " + showChar["performance"],true)
-							.addField("Scholar Skills", "Culture: " + showChar["culture"] + "\nGovernment: " + showChar["government"] + "\nSentiment: " + showChar["sentiment"] + "\nTheology: " + showChar["theology"] + "\nMedicine: " + showChar["medicine"],true)
-							.addField("Trade Skills", "Commerce: " + showChar["commerce"] + "\nLabor: " + showChar["labor"] + "\nSeafaring: " + showChar["seafaring"] + "\nSkulduggery: " + showChar["skulduggery"] + "\nSurvival: " + showChar["survival"],true);
+							charEngine.showChar(embed, username, param);
 							message.channel.send({embed});
 						} else {
 							message.channel.send("Something went wrong with the show command.");
 						}
 					break;
-					case "add":
+					case "addtech":
 					//Add a technique
-						
+					//string = success
+					//-2 = error getting active character
+					//-3 = param not valid technique
+					//-4 = character already has technique
+						param = param.toLowerCase().replace(/(?![a-z])./g, '');
+						var outcome = charEngine.addTech(message.author.username, param);
+						if (outcome == -2) {
+							message.channel.send("I couldn't find an active character");
+						} else if (outcome == -3) {
+							message.channel.send("Invalid technique");
+						} else if (outcome == -4) {
+							message.channel.send("Your character already has that technique.");
+						} else {
+							message.channel.send("Successfully added the technique: " + outcome);
+						}
 					break;
-					case "remove":
+					case "removetech":
 					//Remove a technique
-						
+					//string = success
+					//-2 = error getting active character
+					//-3 = character doesn't have param
+						param = param.toLowerCase().replace(/(?![a-z])./g, '');
+						var outcome = charEngine.removeTech(message.author.username, param);
+						if (outcome == -2) {
+							message.channel.send("I couldn't find an active character");
+						} else if (outcome == -3) {
+							message.channel.send("Your character doesn't have a technique matching " + param);
+						} else {
+							message.channel.send("Successfully removed the technique: " + outcome);
+						}
+					break;
+					case "addnote":
+					//Add a new note
+					//1-10 = success
+					//-2 = no active character
+					//-3 = character locked
+					//-4 = too many notes
+						var outcome = charEngine.addNote(message.author.username, param);
+						if (outcome == -1) {
+							message.channel.send("I don't know how you did this (addnote)");
+						} else if (outcome == -2){
+							message.channel.send("Could not find an active character");
+						} else if (outcome == -3) {
+							message.channel.send("Your active character is locked.");
+						} else if (outcome == -4) {
+							message.channel.send("You already have 10 notes.");
+						} else {
+							message.channel.send("Created note " + outcome);
+						}
+					break;
+					case "setnote":
+					//Set a note's message
+					//1-10 = success
+					//-2 = no active character
+					//-3 = character locked
+					//-4 = Note number invalid
+					//-5 = Too few parameters
+						var outcome = charEngine.setNote(message.author.username, param);
+						if (outcome == -1) {
+							message.channel.send("I don't know how you did this (addnote)");
+						} else if (outcome == -2){
+							message.channel.send("Could not find an active character");
+						} else if (outcome == -3) {
+							message.channel.send("Your active character is locked.");
+						} else if (outcome == -4) {
+							message.channel.send("Your note number is invalid.");
+						} else if (outcome == -5) {
+							message.channel.send("Too few parameters");
+						} else {
+							message.channel.send("Set value of note " + outcome);
+						}
+					break;
+					case "removenote":
+					//Set a note's message
+					//1-10 = success
+					//-2 = no active character
+					//-3 = character locked
+					//-4 = Note number invalid
+					//-5 = note doesn't exist
+						var outcome = charEngine.removeNote(message.author.username, param);
+						if (outcome == -1) {
+							message.channel.send("I don't know how you did this (addnote)");
+						} else if (outcome == -2){
+							message.channel.send("Could not find an active character");
+						} else if (outcome == -3) {
+							message.channel.send("Your active character is locked.");
+						} else if (outcome == -4) {
+							message.channel.send("Your note number is invalid.");
+						} else if (outcome == -5) {
+							message.channel.send("You don't have a note with that number.");
+						} else {
+							message.channel.send("Removed note " + outcome);
+						}
 					break;
 					default:
 					//Error
@@ -372,12 +494,12 @@ client.on("message", (message) => {
 			}
 		} else {
 			var command = splitMessage.substring(1);
+			const embed = new Discord.RichEmbed()
 			switch(command) {
 				case "list":
 					var yourCharacters = charEngine.list(message.author.username);
 					if (yourCharacters != -1) {
-						const embed = new Discord.RichEmbed()
-						.setColor("#017cba")
+						embed.setColor("#017cba")
 						.setAuthor(message.author.username + "'s Characters")
 						.setDescription(yourCharacters);
 						message.channel.send({embed});
@@ -387,33 +509,47 @@ client.on("message", (message) => {
 				break;
 				case "active":
 					var outcome = charEngine.getActive(message.author.username);
-					if (!(outcome == -1)) {
+					if (isNaN(outcome)) {
 						message.channel.send("Your active character is " + outcome);
 					} else {
 						message.channel.send("You don't have any active characters at the moment.");
 					}
 				break;
 				case "show":
-					const embed = new Discord.RichEmbed()
-					.setColor("#017cba");
+					embed.setColor("#017cba");
 					const username = message.author.username;
 					const param = charEngine.getActive(username);
 					
 					if ((username in charEngine.characters) && (param in charEngine.characters[username])) {
 						const showChar = charEngine.characters[username][param];
-						embed.setAuthor(showChar["name"])
-						.setTitle("Air " + showChar["air"] + " - Earth " + showChar["earth"] + " - Fire " + showChar["fire"] + " - Water " + showChar["water"] + " - Void " + showChar["void"])
-						.setDescription("| Endurance: " + showChar["fatigue"] + "/" + (parseInt(showChar["earth"]) + parseInt(showChar["fire"]))*2 + " | Composure: " + showChar["strife"] + "/" + (parseInt(showChar["earth"]) + parseInt(showChar["water"]))*2 + " | Focus: " + (parseInt(showChar["air"]) + parseInt(showChar["fire"])) + " | Vigilance: " + Math.ceil((parseFloat(showChar["air"]) + parseFloat(showChar["water"]))/2.0) + " | Void Points: " + showChar["voidpoints"] + "/" + showChar["void"] + " |\n| Honor: " + showChar["honor"] + " | Glory: " + showChar["glory"] + " | Status: " + showChar["status"] + " |")
-						.addField("Martial Arts Skills", "M.A. [Melee]: " + showChar["mamelee"] + "\nM.A. [Ranged]: " + showChar["maranged"] + "\nM.A. [Unarmed]: " + showChar["maunarmed"],true)
-						.addField("Martial  Skills", "Fitness [Defense]: " + showChar["fitness"] + "\nMeditation: " + showChar["meditation"] + "\nTactics: " + showChar["tactics"],true)
-						.addField("Artisan Skills", "Aesthetics: " + showChar["aesthetics"] + "\nComposition: " + showChar["composition"] + "\nDesign: " + showChar["design"] + "\nSmithing: " + showChar["smithing"],true)
-						.addField("Social Skills", "Command: " + showChar["command"] + "\nCourtesy: " + showChar["courtesy"] + "\nGames: " + showChar["games"] + "\nPerformance:  " + showChar["performance"],true)
-						.addField("Scholar Skills", "Culture: " + showChar["culture"] + "\nGovernment: " + showChar["government"] + "\nSentiment: " + showChar["sentiment"] + "\nTheology: " + showChar["theology"] + "\nMedicine: " + showChar["medicine"],true)
-						.addField("Trade Skills", "Commerce: " + showChar["commerce"] + "\nLabor: " + showChar["labor"] + "\nSeafaring: " + showChar["seafaring"] + "\nSkulduggery: " + showChar["skulduggery"] + "\nSurvival: " + showChar["survival"],true);
+						charEngine.showChar(embed, username, param);
 						message.channel.send({embed});
 					} else {
 						message.channel.send("You don't seem to have an active character to show.");
 					}
+				break;
+				case "help":
+					
+					embed.setColor("#017cba")
+					.setAuthor("Character Help Menu")
+					.setDescription("-help | Information Help Menu\n!help | Rolling Help Menu\n&help | Character Help Menu")
+					.addField("&create [characterID]", "Create new character with ID [characterID]")
+					.addField("&delete [characterID]", "Delete character with ID [characterID]")
+					.addField("&active [characterID]", "Set active character to character with ID [characterID]")
+					.addField("&active", "Display current active character")
+					.addField("&list", "List all characters and their IDs.")
+					.addField("&show [characterID]", "Display character sheet of the character with ID [characterID]")
+					.addField("&show", "Display character sheet of currently active character")
+					.addField("&set [parameter] [value]", "Set the value of [parameter] to [value] for the currently active character. Use &show for an idea of [parameter]s.")
+					.addField("&lock [characterID]", "Lock the character with ID [characterID], preventing further editing.")
+					.addField("&unlock [characterID]", "Unlock the character with ID [characterID], allowing further editing.")
+					.addField("&addtech [technique]", "Adds the given technique to the currently active character.")
+					.addField("&removetech [technique]", "Removes the given technique from the currently active character.")
+					.addField("&addnote [text]", "Adds a new note in the lowest available slot with the given text.")
+					.addField("&setnote [notenumber] [text]", "Sets the text of the given note.")
+					.addField("&removenote [notenumber]", "Deletes the given note.");
+					
+					message.channel.send({embed});
 				break;
 				default:
 					message.channel.send("Okay, you broke something");

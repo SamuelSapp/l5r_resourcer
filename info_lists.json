@@ -258,5 +258,9 @@
 	"vshuji":{
 		"title":"Void Shuji",
 		"description":"-All Arts Are One\n-A Samurai’s Fate\n-Courtier’s Resolve\n-Lady Doji’s Decree\n-Lady Shinjo’s Speed\n-Lord Akodo’s Roar\n-Lord Bayushi’s Whispers\n-Lord Togashi’s Insight\n-Rouse the Soul"
+	},
+	"rings":{
+		"title":"Rings",
+		"description":"Air: air\nEarth: earth\n Fire: fire\nWater: water\nVoid: void"
 	}
 }
